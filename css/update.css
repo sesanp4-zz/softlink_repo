@@ -1,0 +1,26 @@
+
+html{
+    font-family: 'Open-Sans', sans-serif;
+}  
+body{
+    margin: 0;
+    font-family: 'Open-Sans', sans-serif;
+    background:#F0F0F0;
+    height: 100%
+}
+h3{
+    font-family:Alegreya,serif;
+    font-weight: 700
+}
+
+.row2 main{
+  padding: 1%
+}
+
+.row3{
+  padding: 0% 1%   
+}
+.row3 aside{
+    background: white;
+    height: 500px
+}

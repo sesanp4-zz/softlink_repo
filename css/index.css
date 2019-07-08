@@ -1,0 +1,86 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Apr 28, 2019, 2:39:56 PM
+    Author     : centricgateway
+*/
+
+html{
+    font-size: 13px;
+    font-family: 'Roboto', sans-serif;
+    height: 100%
+}  
+body{
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    background:white;
+    font-family: 'Cormorant Upright', serif;
+    height: 100%
+}
+
+#row1{
+      background: #E0115F;
+      padding: 5%;
+      height: 500px;
+}
+
+#row1 #right{
+    padding: 2%
+}
+
+#links a{
+  
+}
+#category{
+    padding: 5%;
+    background: #f7f7f7
+}
+#cat_col{
+    padding: 5%
+}
+#cat_div{
+    
+}
+.cat{
+    text-align: center;
+    margin-top: 1%;
+    margin-bottom: 1%
+}
+.card-body:hover{
+    background: #E0115F;
+    color: white
+}
+#row2{
+    padding: 8%
+}
+.whyus{
+    padding: 5%;
+    
+}
+#form-row{
+    
+}
+.button{
+    background: #1565c0;
+    height: 50px;
+    color:white
+}
+#airtime_modal{
+   
+}
+#row3{
+    padding: 8%
+}
+#right{
+    padding: 10% 5%;
+}
+#contact_but{
+    background: #1565c0;
+    color:white;
+}
+#about{
+    padding: 7% 20%
+}

@@ -1,0 +1,49 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jun 19, 2019, 10:36:46 PM
+    Author     : centricgateway
+*/
+
+
+html{
+    font-family: 'Open-Sans', sans-serif;
+    height: 100%
+}  
+body{
+    margin: 0;
+    font-family: 'Open-Sans', sans-serif;
+    height: 100%
+}
+
+.body{
+    height: 100vh;
+    background: radial-gradient(690px at 50% 50%,rgba(9,156,236,.87) 0,rgba(6,109,165,.87) 100%);
+}
+
+.form{
+    background: white;
+    height: 80vh;
+    margin-top: 10vh;
+    border-radius: 5px;
+    padding: 5% 3%
+}
+
+.my-input{
+    border:none;
+    outline:none;
+    width: 80%;
+}
+
+.active_input{
+    border-bottom: 1px solid #40c4ff 
+}
+.my_button{
+    background: #099cec;
+    border-color: #099cec;
+    color:white  ;
+    width: 50%
+}

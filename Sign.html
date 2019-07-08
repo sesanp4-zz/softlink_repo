@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://fonts.googleapis.com/css?family=Alegreya:400,700|Open+Sans" rel="stylesheet">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+        <link rel="stylesheet" href="css/animate.css">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/sign.css">
+        <script src="js/jquery-3.3.1.min.js"></script>
+        <script src="js/popper.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>           
+        <script src="js/smoothScroll.js"></script> 
+        <script src="js/jquery.roundimage.js"></script>
+        <script src="js/script.js"></script>
+        <script src="js/utilities.js"></script>
+        <script>
+
+            $(document).ready(function () {
+
+                $(".option_row").hide();
+
+                $(".create_acct").click(function (e) {
+                    e.preventDefault();
+                    $(".sign_row").remove();
+                     $(".option_row").addClass("animated fadeIn").show();
+
+                });
+
+                $(".sign_up_link").click(function (e) {
+                    e.preventDefault();
+                    $(".login_row").remove();
+                    $(".signup_row").show().addClass("animated  slideInRight");
+
+
+                });
+
+
+            });
+
+        </script>
+    </head>
+    <body>
+        <div class="container-fluid body">
+            <div class="row sign_in">
+                <div class="col-4 offset-4 form shadow-lg text-center">
+                  <div class="row sign_row">
+                   <div class="col-12">
+                    <h3 class="col-12 mb-3" style="color:#099cec">Logo</h3>
+                    <h5 class="col-12 mb-3 text-muted">Sign in with your</h5>
+                    <h4 class="col-12 mb-5" style="color:#099cec; font-weight: bolder">SOFTLINK ID</h4>
+                    
+                    <input type="text" placeholder="UserID" class="my-input mb-4 active_input">
+                    <input type="password" placeholder="Password" class="my-input active_input mb-5">
+                    <button class="btn my_button mb-5">Sign in</button>
+                    
+                    <div class="row">
+                        <div class="col-6" style="border-right: 1px solid #099cec">
+                            <a href="" class="links" style="text-decoration: none; color:#099cec">Forget Password?</a>
+                        </div>
+                        <div class="col-6" style="">
+                            <a href="" class="links create_acct" style="text-decoration: none; color:#099cec" id="">Create Account</a>
+                        </div>
+                    </div>
+                   </div>
+                </div>
+                  <!--options rows-->            
+                <div class="row option_row">
+                    <div class="col-12 text-center">
+                        <h3 class="col-12 mb-3" style="color:#099cec">Logo</h3>
+                        <h5 class="col-12 mb-3 text-muted mb-5">Icon will be here</h5>
+                        <p class="col-12 text-muted">How would you like to use our service ?</p>
+                        <div class="row mb-3">
+                            <div class="col-6" style="padding: 3%">
+                                <div class="col-12 text-center" style="color:#099cec; padding: 5%; border: 1px solid #099cec">
+                                    <h5 class="col-12">As a</h5>
+                                    <h4 class="col-12"> Student</h4>
+                                </div>
+                            </div>
+                            <div class="col-6" style="padding: 3%">
+                                <div class="col-12 text-center" style="color:#099cec; padding: 5%; border: 1px solid #099cec">
+                                     <h5 class="col-12">As a</h5>
+                                     <h4 class="col-12">Professional</h4>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row mb-5">
+                            <div class="col-6 offset-3 text-center" style="color:#099cec; padding: 5%; border: 1px solid #099cec">
+                                    <h5 class="col-12">I want to</h5>
+                                    <h4 class="col-12"> Hire</h4>
+                            </div>
+                        </div>
+                          <a href="">Back</a>
+                    </div>
+                </div>           
+            <!-- End Options row-->   
+              </div>
+            </div>
+            
+           
+            
+              <div class="row create">
+                <div class="col-4 offset-4 form shadow-lg text-center">
+                    <h3 class="col-12 mb-3" style="color:#099cec">Logo</h3>
+                    <h5 class="col-12 mb-3 text-muted">Sign in with your</h5>
+                    <h4 class="col-12 mb-5" style="color:#099cec; font-weight: bolder">SOFTLINK ID</h4>
+                    
+                    <input type="text" placeholder="UserIDD" class="my-input mb-4 active_input">
+                    <input type="password" placeholder="Password" class="my-input active_input mb-5">
+                    <button class="btn my_button mb-5">Sign in</button>
+                    
+                    <div class="row">
+                        <div class="col-6" style="border-right: 1px solid #099cec">
+                            <a href="" class="links" style="text-decoration: none; color:#099cec">Forget Password?</a>
+                        </div>
+                        <div class="col-6" style="">
+                            <a href="" class="links" style="text-decoration: none; color:#099cec" id="create_acct">Create Account</a>
+                        </div>
+                    </div>                 
+                </div>
+            </div>
+            
+        </div>
+    </body>
+</html>
